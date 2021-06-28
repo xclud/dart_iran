@@ -1,4 +1,4 @@
-bool validateNationalNumber(String value) {
+bool validateNationalNumber(String? value) {
   if (value == null || value.length != 10) return false;
 
   var sum = 0;
