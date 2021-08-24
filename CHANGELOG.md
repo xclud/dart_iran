@@ -1,3 +1,8 @@
+## [0.0.6] - August 24, 2021
+
+* Adds IBAN.
+* Fixes a bug in PAN.
+
 ## [0.0.5] - August 24, 2021
 
 * Remove dependency on Flutter. This package can be used as a Dart package.
