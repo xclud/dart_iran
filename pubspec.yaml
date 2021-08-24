@@ -1,14 +1,12 @@
 name: iran
-description: List of provinces and cities, validators and more.
-version: 0.0.4
+description: List of provinces and cities, PAN and National Number validators and more.
+version: 0.0.5
 repository: https://github.com/xclud/dart_iran
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
 
 dev_dependencies:
   lints: ^1.0.0

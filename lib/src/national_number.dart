@@ -27,4 +27,10 @@ class NationalNumber {
 
     return mod == d;
   }
+
+  /// Converts the instance of NationalNumber to string.
+  @override
+  String toString() {
+    return value;
+  }
 }

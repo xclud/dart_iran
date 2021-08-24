@@ -1,3 +1,7 @@
+## [0.0.5] - August 24, 2021
+
+* Remove dependency on Flutter. This package can be used as a Dart package.
+
 ## [0.0.4] - August 24, 2021
 
 * Pan and NationalNumber classes.
