@@ -1,3 +1,8 @@
+## [0.0.4] - August 24, 2021
+
+* Pan and NationalNumber classes.
+* List of Provinces and Cities in them.
+
 ## [0.0.3] - June 28, 2021
 
 * Migrated to null-safety.
