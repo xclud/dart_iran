@@ -15,10 +15,6 @@ class Pan {
       return false;
     }
 
-    if (pan.contains('*')) {
-      return true;
-    }
-
     pan = pan.replaceAll('-', '').replaceAll(' ', '');
 
     if (pan.length < 16) {

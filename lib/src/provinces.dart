@@ -1,4 +1,4 @@
-// ignore_for_file: non_constant_identifier_names
+// ignore_for_file: non_constant_identifier_names, constant_identifier_names
 
 class Province {
   const Province._({
@@ -11,7 +11,7 @@ class Province {
   final String name;
   final List<City> cities;
 
-  static const List<Province> all = const [
+  static const List<Province> all = [
     _prov_01,
     _prov_02,
     _prov_03,
@@ -113,7 +113,7 @@ const _p_01_c1114 = City._(id: 1114, name: 'ممقان', stateId: 1);
 const _p_01_c1115 = City._(id: 1115, name: 'بستان آباد', stateId: 1);
 const _p_01_c1130 = City._(id: 1130, name: 'خواجه', stateId: 1);
 const _p_01_c1231 = City._(id: 1231, name: 'لامر', stateId: 1);
-const _prov_01 = const Province._(id: 1, name: 'آذربایجان شرقی', cities: [
+const _prov_01 = Province._(id: 1, name: 'آذربایجان شرقی', cities: [
   _p_01_c0420,
   _p_01_c0421,
   _p_01_c0422,
