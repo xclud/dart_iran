@@ -1,3 +1,7 @@
+## [0.0.7]
+
+* Updated the City and Province models.
+
 ## [0.0.6] - August 24, 2021
 
 * Adds IBAN.
