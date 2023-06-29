@@ -1,6 +1,8 @@
 library iran;
 
-export 'src/pan.dart';
-export 'src/iban.dart';
-export 'src/national_number.dart';
-export 'src/provinces.dart';
+import 'package:latlng/latlng.dart';
+
+part 'src/pan.dart';
+part 'src/iban.dart';
+part 'src/national_number.dart';
+part 'src/city.dart';

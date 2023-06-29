@@ -1,3 +1,5 @@
+part of iran;
+
 class NationalNumber {
   /// The main constructor.
   const NationalNumber(this.value);
