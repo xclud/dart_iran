@@ -1,3 +1,7 @@
+## [0.0.8]
+
+* Adds a list of provinces.
+
 ## [0.0.7]
 
 * Updated the City and Province models.
