@@ -1,4 +1,4 @@
-part of iran;
+part of '../iran.dart';
 
 /// International Bank Account Number which also is known as SHEBA.
 /// Examples values are "IR062960000000100324200001" and "IR 06 2960 0000 0010 0324 2000 01".

@@ -1,4 +1,4 @@
-part of iran;
+part of '../iran.dart';
 
 /// Refers to card banks.
 /// Example values are 5022-2910-1111-2222 and 6274121111112222.

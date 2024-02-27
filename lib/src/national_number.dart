@@ -1,4 +1,4 @@
-part of iran;
+part of '../iran.dart';
 
 class NationalNumber {
   /// The main constructor.
