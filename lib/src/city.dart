@@ -1,19 +1,33 @@
 part of '../iran.dart';
 
+/// Represents a Province.
 class Province {
   const Province._(this.id, this.name, this.cities);
 
+  /// Id of the province.
   final int id;
+
+  /// Name of the province.
   final String name;
+
+  /// Cities within the province.
   final List<City> cities;
 }
 
+/// Represents a City.
 class City {
   const City._(this.id, this.name, this.province, this.location);
 
+  /// Id of the City.
   final int id;
+
+  /// Name of the City.
   final String name;
+
+  /// Parent [Province] of the City.
   final int province;
+
+  /// Geocoordinates of the City.
   final LatLng location;
 }
 
