@@ -1,6 +1,6 @@
 name: iran
-description: List of provinces and cities, PAN and National Number validators and more.
-version: 0.0.9
+description: List of provinces and cities, IBAN, PAN and National Number validators and more.
+version: 0.0.10
 repository: https://github.com/xclud/dart_iran
 
 environment:

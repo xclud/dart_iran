@@ -53,8 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      const iban = IBAN('IR062960000000100324200001');
-      final _ = iban.isValid();
+      final _ = isValidIBAN('IR062960000000100324200001');
       _counter++;
     });
   }

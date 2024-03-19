@@ -1,6 +1,10 @@
+## [0.0.10]
+
+* Functional API design.
+
 ## [0.0.9]
 
-* Maintenance
+* Maintenance.
 
 ## [0.0.8]
 
