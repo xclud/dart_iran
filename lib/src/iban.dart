@@ -1,20 +1,5 @@
 part of '../iran.dart';
 
-@Deprecated('Please use `isValidIBAN`.')
-
-/// International Bank Account Number which also is known as SHEBA.
-/// Examples values are "IR062960000000100324200001" and "IR 06 2960 0000 0010 0324 2000 01".
-class IBAN {
-  /// The main constructor.
-  const IBAN(this.value);
-
-  /// Actual PAN.
-  final String value;
-
-  /// Checks if this IBAN is valid.
-  bool isValid() => isValidIBAN(value);
-}
-
 /// Checks if this IBAN is valid.
 ///
 /// Valid values are `IR062960000000100324200001` and `IR 06 2960 0000 0010 0324 2000 01`.

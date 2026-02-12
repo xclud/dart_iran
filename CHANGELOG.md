@@ -1,7 +1,10 @@
+## [0.0.11]
+
+* Added company national id validator.
+
 ## [0.0.10]
 
 * Functional API design.
-
 ## [0.0.9]
 
 * Maintenance.

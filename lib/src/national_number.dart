@@ -1,25 +1,5 @@
 part of '../iran.dart';
 
-@Deprecated('Please use `isValidNationalNumber`.')
-
-/// National number.
-class NationalNumber {
-  /// The main constructor.
-  const NationalNumber(this.value);
-
-  /// Actual NationalNumber.
-  final String value;
-
-  /// Checks if the given value is a valid National Number.
-  bool isValid() => isValidNationalNumber(value);
-
-  /// Converts the instance of NationalNumber to string.
-  @override
-  String toString() {
-    return value;
-  }
-}
-
 /// Checks if the given value is a valid National Number.
 bool isValidNationalNumber(String value) {
   value = value.replaceAll('-', '').replaceAll(' ', '');
