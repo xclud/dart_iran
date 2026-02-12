@@ -19,7 +19,7 @@ class IBAN {
 ///
 /// Valid values are `IR062960000000100324200001` and `IR 06 2960 0000 0010 0324 2000 01`.
 bool isValidIBAN(String value) {
-  String iban = value.replaceAll(RegExp(r'\s'), '');
+  String iban = value.replaceAll(RegExp(r'\s'), '').replaceAll('-', '');
 
   if (iban.length != 26) {
     return false;
